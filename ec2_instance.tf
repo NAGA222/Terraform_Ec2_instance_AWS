@@ -1,7 +1,8 @@
 provider "aws" {
   region = "ap-south-1"
-  access_key = "AKIAQT3ATBYEZA3UIKF5"
-  secret_key = "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"
+  #access_key = "xxxxxxxxxxxxx"
+  #secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  shared_credentials_file = "C:/Users/pasha/.aws/credentials"
 }
 
 resource "aws_instance" "ec2_sample" {
